@@ -18,6 +18,7 @@ def binary_search(just_list, nome):
     left = 0
     right = lenght -1
 
+    #enquanto esquerda for menor ou igual a direita o meio será um inteiro com o valores dividos
     while (left <= right):
         middle = int ((left + right)/2)
         if just_list[middle] == nome:
@@ -31,4 +32,4 @@ def binary_search(just_list, nome):
                 print("name not found")
 
 nome=input("insert a name here:  ")
-print(binary_search(just_list, nome))
+binary_search(just_list,nome)

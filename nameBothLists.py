@@ -7,9 +7,9 @@ import pandas as pd
 namesMas = pd.read_csv('./ibge-mas-10000.csv', delimiter=',')
 namesFem = pd.read_csv('./ibge-fem-10000.csv', delimiter=',')
 
-#define como frame
+#define frame == frames em python sao onde guardamos um um conjunto de informações
 frames = [namesFem,namesMas]
-
+#bliblioteca do panda para concatenar as informações
 lists = pd.concat(frames)
 
 #vai pegar a lista e ordenar os valores para variavel nome
@@ -35,6 +35,7 @@ def binary_search(just_list, nome):
 nome=input("insert a name here: ")
 namesMas = binary_search(namesMas, nome)
 namesFem = binary_search(namesFem, nome)
+
 if(listaM == False or listaF == False):
     print("name not found on the lists")
 else:
