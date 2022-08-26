@@ -4,4 +4,6 @@
 >A busca deve ser implementada usando busca binária.
 >Use a linguagem da sua preferencia e trabalhe em equipe."
 
+Disciplina: Algoritmos Avançados
+Professor: Glauco Vinicius Scheffell
 
